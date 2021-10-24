@@ -2,7 +2,7 @@
 # Dockerfile for Minidump receiver 
 #
 # Receives minidumps by SFTP.
-# Stores received files to /home/minidumps.
+# Stores received files to /sftp/minidumps/incoming
 # Archiving and cleanup done externally by user 'archiver'.
 #
 # Ports
